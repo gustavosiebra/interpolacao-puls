@@ -2,24 +2,6 @@
 % AUTOR: GUSTAVO SIEBRA
 % DATA: 12/10/2019
 % LOCAL: FORTALEZA
-% 
-% ESSAS INFORMACOES ESTAO NO ARQUIVO TCC-RESULTADOS 
-% NAS SHEETS RESERVATORIOS
-%
-% O ARQUIVO baseDeDados1.txt DEVE CONTER AS SEGUINTES INFORMAÇÕES:
-% 
-% COLUNA X - AJ (COM SEPARADOR)
-% 
-% O ARQUIVO baseDeDados2.txt DEVE CONTER AS SEGUINTES INFORMAÇÕES:
-% 
-% COLUNA Q: HIDROGRAMA DE ENTRADA (i)
-% COLUNA R: SEPARADOR (VIRGULA)
-% COLUNA S: i1 + i2 (m3/s)
-% 
-% COM ESSAS INFORMAÇÕES O NÚMEROS PRECISAM ESTAR SALVOS NO PADRÃO AMERICANO:
-% EXEMPLO: 10.4, 2.7, 4.3
-% 
-% NA DISMA USA PONTO E PARA SEPARAR USA VIRGULA.
 
 %%
 clc
@@ -27,17 +9,13 @@ clear all
 close all
 
 %% Carregando arquivo
-%data0 = load('baseDeDados0.txt');
 data1 = load('baseDeDados1.txt');
 data2 = load('baseDeDados2.txt');
 
 %% Condições
-
-%dataset0 = data0;
 dataset1 = data1;
 dataset2 = data2;
 
-%[linha0, col0] = size(data0);
 [linha1, col1] = size(data1);
 [linha2, col2] = size(data2);
 
