@@ -10,7 +10,7 @@
 
 4. COM ESSAS INFORMAÇÕES O NÚMEROS PRECISAM ESTAR SALVOS NO PADRÃO AMERICANO (NA DISMA USA PONTO E PARA SEPARAR USA VIRGULA). EXEMPLO: **10.4, 2.7, 4.3**
 
-5. FEITO ISSO, EXECUTE O CÓDIGO. 
+5. FEITO ISSO, ABRA O ARQUIVO **interpolacao.m** NO MATLAB E EXECUTE O CÓDIGO. 
 
 6. AS VARIÁVEIS **vazaoSaida (O)**, **vazaoNegativa ((2S/Δt)-O)** E **vazaoPositiva ((2S/Δt)+O)** RETORNAM 6 COLUNAS EM (m³/s):
  <ul><li> coluna 1: vazão da saída de 1 orifício + vertedor</ul></li>
